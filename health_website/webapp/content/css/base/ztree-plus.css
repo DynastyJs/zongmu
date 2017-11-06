@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+body{
+	margin : 0px;
+	font-size : 12px ;
+	font-family : 微软雅黑;
+}
+
+.ztree-plus{
+	
+}
+
+.ztree-plus .search{
+	border: 1px solid #bbb;
+	position: relative;
+	font-size: 12px;
+	margin-bottom : 5px ;
+}
+
+.ztree-plus .search input{
+	border: none;
+	height: 23px;
+	width: 160px;
+	margin-left : 3px ;
+	outline : none ;
+}
+.ztree-plus .search  i {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	color :#bbb;
+}
+.ztree-plus .tree {
+	overflow: auto;
+	max-height : 265px;
+}
+/* 重写autocomplte的下拉宽度 */
+.autocompleter{
+	width : 230px;
+}
+

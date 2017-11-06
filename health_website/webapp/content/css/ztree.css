@@ -1,0 +1,60 @@
+
+.ztree * {
+    font-family: Microsoft Yahei;
+    font-size:14px;
+}
+.ztree li a {
+    color: #666;
+}
+.ztree li a:hover{
+	decoration:none;
+}
+.ztree li {
+    line-height: 25px;
+}
+.ztree li span.button {
+	width: 20px;
+	height: 20px;
+}
+.ztree li a.curSelectedNode {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #4793dd;
+    font-weight:bold;
+
+}
+.ztree li span.button.center_open {
+    background-position: -92px -20px;
+}
+.ztree li span.button.bottom_close {
+    background-position: -74px -39px;
+}
+.ztree li span.button.bottom_open {
+    background-position: -92px -39px;
+}
+.ztree li span.button.center_close {
+    background-position: -74px -20px;
+}
+.ztree li span.button.root_open {
+    background-position: -92px -56px;
+}
+.ztree li span.button.root_close {
+    background-position: -74px -56px;
+}
+.ztree li span {
+    display: inline-block;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 20px;
+    max-width: 300px;
+}
+
+.ztree li span.button.edit {
+    background:  url("../images/base/panglu.png") repeat scroll 0 0;
+    margin-right: 2px;
+    vertical-align: top;
+    height: 16px;
+    width: 16px;
+}

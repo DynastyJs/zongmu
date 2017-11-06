@@ -1,0 +1,86 @@
+
+ .colorBox{
+ 	width:14px;
+ 	height:14px;
+ 	margin-top: 3px;
+ }
+ .title1{
+ 	text-align:center;
+ 	font:bold;
+ 	font-size:15px;
+ }
+ .panel-heading {
+   	background-color: #f8f8f8;
+   	padding-top:3px;
+   	height:32px;
+    text-align:center;
+    font-size:14px;
+  	color:#666666;	
+  }
+  
+  .panel-body {
+   	padding: 0px 5px;
+  }
+  .panel{
+  		width:278px;
+  		height:155px;
+  		margin:10px;
+  		font-size:14px;
+  		color:#666666;	  
+  		padding-left:0px;
+  		padding-top:0px;		
+  }
+  .textRight{
+  		color:#333333;	
+  		text-align:right;
+  }
+  .left{
+  	/*display:inline-block;*/
+    float: left;
+    width: 50%;
+    height:100%;
+  }
+  .right{
+	/*display:inline-block;*/
+  	padding-top:15px;
+    float: right; 
+    width: 50%;
+  }
+  .highcharts-container,
+  svg{
+  	overflow: visible !important;
+  }
+  
+  .highcharts-tooltip{
+  	z-index:9999;
+  	position:relative;
+  }
+  
+  .padding{
+  		margin-left:5px;
+  		margin-right:5px;
+  }
+  .row {
+    margin-left: -10px;
+    margin-right: 0;
+}
+.row .panel{
+	display:inline-block;
+}
+.right .row {
+    margin-top: 10px;
+}
+.sidebar {
+    width: 120px;
+    position: relative;
+}
+.col-md-1 {
+   padding-right:0px;
+}
+.main-container {
+    padding: 10px;
+    margin-top: 18px;
+}
+a:link, a:focus, a:visited, a:active, a:hover {
+    text-decoration: underline;
+}

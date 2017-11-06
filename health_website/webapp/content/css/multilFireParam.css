@@ -1,0 +1,201 @@
+@CHARSET "UTF-8";
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+}
+.content {
+	padding: 10px;
+	background-color: white;
+/* 	font-size: 12px; */
+}
+
+.row_style {
+	padding: 5px;
+	border-bottom: 1px solid black;
+}
+.row_2 {
+	padding: 2px;
+}
+.refresh {
+	float: right;
+}
+
+.piece {
+	margin-right:20px;
+}
+
+.margin-top-small {
+	margin-top: 8px;
+}
+
+.setting {
+	float: right;
+}
+
+.height-30 {
+	height:30px;
+}
+
+/*
+* 开关css
+*/
+.mui-switch {
+	width: 52px;
+	height: 31px;
+	position: relative;
+	border: 1px solid #dfdfdf;
+	background-color: #fdfdfd;
+	box-shadow: #dfdfdf 0 0 0 0 inset;
+	border-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-clip: content-box;
+	display: inline-block;
+	-webkit-appearance: none;
+	user-select: none;
+	outline: none;
+}
+
+.mui-switch:before {
+	content: '';
+	width: 29px;
+	height: 29px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	border-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: #fff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.mui-switch:checked {
+	border-color: #64bd63;
+	box-shadow: #64bd63 0 0 0 16px inset;
+	background-color: #64bd63;
+}
+
+.mui-switch:checked:before {
+	left: 21px;
+}
+
+.mui-switch.mui-switch-animbg {
+	transition: background-color ease 0.4s;
+}
+
+.mui-switch.mui-switch-animbg:before {
+	transition: left 0.3s;
+}
+
+.mui-switch.mui-switch-animbg:checked {
+	box-shadow: #dfdfdf 0 0 0 0 inset;
+	background-color: #64bd63;
+	transition: border-color 0.4s, background-color ease 0.4s;
+}
+
+.mui-switch.mui-switch-animbg:checked:before {
+	transition: left 0.3s;
+}
+
+.mui-switch.mui-switch-anim {
+	transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow
+		cubic-bezier(0, 0, 0, 1) 0.4s;
+}
+
+.mui-switch.mui-switch-anim:before {
+	transition: left 0.3s;
+}
+
+.mui-switch.mui-switch-anim:checked {
+	box-shadow: #64bd63 0 0 0 16px inset;
+	background-color: #64bd63;
+	transition: border ease 0.4s, box-shadow ease 0.4s, background-color
+		ease 1.2s;
+}
+
+.mui-switch.mui-switch-anim:checked:before {
+	transition: left 0.3s;
+}
+
+.ui-switch {
+    position: absolute;
+    font-size: .16rem;
+    right:0.07rem;
+    top: 50%;
+    margin-top: -0.16rem;
+    width: .7rem;
+    height: .3rem;
+    line-height: .3rem;
+}
+.ui-switch input {
+    width: .7rem;
+    height: .3rem;
+    position: absolute;
+    top: 0;left: 0;  
+    z-index: 2;
+    border: 0;
+    background: 0 0;
+    -webkit-appearance: none;
+    outline: 0
+}
+.ui-switch input:before {
+    content: '';
+    width: .68rem;
+    height: .3rem;
+    border: 1px solid #dfdfdf;
+    background-color: #fdfdfd;
+    border-radius: .2rem;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    border-color: #dfdfdf;
+    -webkit-box-shadow: #dfdfdf 0 0 0 0 inset;
+    box-shadow: #dfdfdf 0 0 0 0 inset;
+    -webkit-transition: border .4s,-webkit-box-shadow .4s;
+    transition: border .4s,box-shadow .4s;
+    -webkit-background-clip: content-box;
+    background-clip: content-box
+}
+
+.ui-switch input:checked:before {
+    border-color: #64bd63;
+    -webkit-box-shadow: #64bd63 0 0 0 0.16rem inset;
+    box-shadow: #64bd63 0 0 0 0.16rem inset;
+    background-color: #64bd63;
+    transition: border .4s,box-shadow .4s,background-color 1.2s;
+    -webkit-transition: border .4s,-webkit-box-shadow .4s,background-color 1.2s;
+    background-color: #64bd63
+}
+.ui-switch input:checked:after {
+    left: .4rem
+}
+.ui-switch input:after {
+    content: '';
+    width:.3rem;
+    height: .3rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform:translateY(-50%);
+    border-radius: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0.01rem 0.03rem rgba(0,0,0,.4);
+    box-shadow: 0 0.01rem 0.03rem rgba(0,0,0,.4);
+    -webkit-transition: left .2s;
+    transition: left .2s
+}
+

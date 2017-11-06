@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+/* datatable每页显示多少条的样式  */
+.lstyle{
+	padding-top : 8px;
+}
+
+.lstyle .dataTables_length label{
+	color: #333;
+    font-weight: normal;
+    padding-left: 10px;
+}

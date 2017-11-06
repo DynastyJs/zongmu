@@ -1,0 +1,84 @@
+#videotree li a span.button{
+	width:18px;
+	height:18px;
+	background:url("../images/resource/ztreetools.png") -2px -22px no-repeat;
+}
+
+#videotree li{
+	margin:4px;
+	height:20px;
+}
+
+#videotree li a span{
+	font-size:15px;
+}
+
+#pictree li  a span.button{
+	width:18px;
+	height:18px;
+	background:url("../images/resource/ztreetools.png") -2px -22px no-repeat;
+}
+
+#pictree li{
+	margin:4px;
+	height:20px;
+}
+
+#pictree li a span{
+	font-size:15px;
+}
+
+#picSearch{
+	height:28px;
+	margin-left:10px;
+}
+
+#videoSearch{
+	height:28px;
+	margin-left:10px;
+}
+
+.noPicMsg{
+	
+	width:120px;
+	height:55px;
+	line-height:55px;
+	text-align:center;
+	border:1px solid #aaaaaa;
+	background-color:#e8e8e8;
+	margin: 0 auto;
+	margin-top:200px;
+}
+
+.ztree .uploadBtn span.button{
+	width:18px;
+	height:18px;
+	background:url("../images/resource/ztreeBtns.png")  no-repeat ;
+	background-position-x: -1px;
+	background-position-y: -3px;
+}
+.ztree .editBtn span.button{
+	width:18px;
+	height:18px;
+	background:url("../images/resource/ztreeBtns.png") no-repeat ;
+	background-position-x: -1px;
+	background-position-y: -22px;
+}
+.ztree .clearBtn span.button{
+	width:18px;
+	height:18px;
+	background:url("../images/resource/ztreeBtns.png")  no-repeat ;
+	background-position-x: -1px;
+	background-position-y: -42px;
+}
+
+
+
+.thumbnail .deleteBtn{
+	width:20px;
+	height:20px;
+	margin:5px 5px;
+	cursor : pointer;
+	background:url("../images/resource/delete.png")  no-repeat ;
+}
+

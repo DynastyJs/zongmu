@@ -1,0 +1,42 @@
+.devTabCls{
+	height : 100%;
+	padding-top:5px;
+	background : url("../images/device/bg.png") repeat-y ;
+	
+}
+.devTabCls li{
+	
+	width:100%;
+	height : 80px;
+	line-height : 80px;
+	color:#000000;
+	cursor:pointer;
+	margin-top:5px;
+	border: 1px solid #fff; 
+	border-right:0;
+	text-align:center;
+}
+
+.devTabCls li img{
+	padding-right : 3px;
+}
+#leftPanel .slider{
+	background-color:#8cc6f7;
+	height:80px;
+	width:inherit;
+	position:absolute;
+	top:10px;
+	left:0;
+	z-index:-1;
+}
+
+.bootstrap-table{
+	height:100%;
+}
+/*.bootstrap-table .fixed-table-container{*/
+	/*height:70%;*/
+/*}*/
+
+#devDomainTree{
+	height:100%;
+}

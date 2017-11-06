@@ -1,0 +1,131 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.gosun</groupId>
+	<artifactId>health_website</artifactId>
+	<version>1.0</version>
+	<packaging>war</packaging>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<build>
+		<sourceDirectory>src/main/java</sourceDirectory>
+		<defaultGoal>compile</defaultGoal>
+		<outputDirectory>target/health_website/WEB-INF/classes</outputDirectory>
+		<finalName>health_website</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.5.1</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+					<!-- 增加字符编码 -->
+					<encoding>UTF-8</encoding>
+					<compilerArguments>
+						<!-- 编译class时所依赖包-->
+						<extdirs>webapp\WEB-INF\lib</extdirs>
+						<!-- 编译class时所依赖包-->
+						<bootclasspath>${java.home}/lib/rt.jar;webapp\WEB-INF\lib\Core-1.0.jar;</bootclasspath>
+					</compilerArguments>
+				</configuration>
+			</plugin>
+			
+			<!-- 打包-->
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.3</version>
+				<configuration>
+					<webXml>webapp/WEB-INF/web.xml</webXml>
+					<outputDirectory>deploy</outputDirectory>
+					<warName>health_website</warName>
+					<warSourceDirectory>webapp</warSourceDirectory>
+					<!-- 去掉maven打包的jar包,只用在开发环境 -->
+					<packagingExcludes>WEB-INF/lib/maven-*.jar,WEB-INF/lib/jsp-api.jar,WEB-INF/lib/servlet-api.jar</packagingExcludes>
+				</configuration>
+			</plugin>
+			
+			<!-- 打包前，生成配置文件-->
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.5</version>
+				<executions>
+					<execution>
+						<id>copy-resources</id>
+						<phase>compile</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>target/health_website/WEB-INF/classes</outputDirectory>
+							<resources>
+								<resource>
+									<directory>src/main/java/config</directory>
+									<filtering>false</filtering>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+	            <groupId>org.codehaus.mojo</groupId>
+	            <artifactId>exec-maven-plugin</artifactId>
+	            <version>1.2.1</version>
+	            <executions>
+	                <execution>
+	                    <phase>test</phase>
+	                    <goals>
+	                        <goal>java</goal>
+	                    </goals>
+	                    <configuration>
+	                    	<!-- 通过WorkingCopy生成版本号 -->
+	                    </configuration>
+	                </execution>
+	            </executions>
+	            <dependencies>
+	            	<dependency>
+						<groupId>org.tmatesoft.svnkit</groupId>
+						<artifactId>svnkit</artifactId>
+						<version>1.7.8</version>
+						<scope>system</scope>
+						<systemPath>${basedir}\webapp\WEB-INF\lib\maven-svnkit-1.7.8.jar</systemPath>
+				    </dependency>
+				    <dependency>
+						<groupId>org.tmatesoft.sqljet</groupId>
+						<artifactId>sqljet</artifactId>
+						<version>1.1.6</version>
+						<scope>system</scope>
+						<systemPath>${basedir}\webapp\WEB-INF\lib\maven-sqljet-1.1.6.jar</systemPath>
+				    </dependency>
+				    <dependency>
+						<groupId>org.antlr</groupId>
+						<artifactId>antlr-runtime</artifactId>
+						<version>3.4</version>
+						<scope>system</scope>
+						<systemPath>${basedir}\webapp\WEB-INF\lib\maven-antlr-runtime-3.4.jar</systemPath>
+				    </dependency>
+				    <dependency>
+						<groupId>de.regnis.q.sequence</groupId>
+						<artifactId>sequence-library</artifactId>
+						<version>1.0.2</version>
+						<scope>system</scope>
+						<systemPath>${basedir}\webapp\WEB-INF\lib\maven-sequence-library-1.0.2.jar</systemPath>
+				    </dependency>
+				    <dependency>
+						<groupId>org.apache.commons</groupId>
+						<artifactId>commons-exec</artifactId>
+						<version>1.1</version>
+						<scope>system</scope>
+						<systemPath>${basedir}\webapp\WEB-INF\lib\commons-exec-1.1.jar</systemPath>
+				    </dependency>
+	            </dependencies>
+	        </plugin>
+		</plugins>
+	</build>
+</project>

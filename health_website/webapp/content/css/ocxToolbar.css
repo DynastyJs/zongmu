@@ -1,0 +1,44 @@
+.ocxtool_one ,.ocxtool_four,.ocxtool_six,.ocxtool_nine,.ocxtool_close,.ocxtool_closeall{
+	width:16px;
+	height:16px;
+	display:inline-block;
+	cursor:pointer;
+	margin:10px;
+}
+
+.ocxtool_one{
+	background:url("../images/ocxToolbar/one.png") no-repeat;
+}
+.ocxtool_one:hover{
+	background:url("../images/ocxToolbar/one_over.png") no-repeat;
+}
+.ocxtool_four{
+	background:url("../images/ocxToolbar/four.png") no-repeat;
+}
+.ocxtool_four:hover{
+	background:url("../images/ocxToolbar/four_over.png") no-repeat;
+}
+.ocxtool_six{
+	background:url("../images/ocxToolbar/six.png") no-repeat;
+}
+.ocxtool_six:hover{
+	background:url("../images/ocxToolbar/six_over.png") no-repeat;
+}
+.ocxtool_nine{
+	background:url("../images/ocxToolbar/nine.png") no-repeat;
+}
+.ocxtool_nine:hover{
+	background:url("../images/ocxToolbar/nine_over.png") no-repeat;
+}
+.ocxtool_close{
+	background:url("../images/ocxToolbar/close.png") no-repeat;
+}
+.ocxtool_close:hover{
+	background:url("../images/ocxToolbar/close_over.png") no-repeat;
+}
+.ocxtool_closeall{
+	background:url("../images/ocxToolbar/closeall.png") no-repeat;
+}
+.ocxtool_closeall:hover{
+	background:url("../images/ocxToolbar/closeall_over.png") no-repeat;
+}

@@ -1,0 +1,63 @@
+更新时间：2015-7-18 
+更新人员：lwh
+---------------------------------------------
+整合cxf的框架，实现webservice的服务端和客户端的示例代码。
+1、更新web.xml/applicationContext-client.xml/applicationContext-ws.xml
+2、示例代码：com.gosun.example.webservice
+3、需要引入的lib包：cxf-*.jar,stax2-api.3.14.jar
+  ,woodstox-ccore-asl-4.4.1.jar,wsdl4j-1.6.3.jar,xmlschema-core-2.2.1.jar
+  neethi-3.0.3.jar,stax2-api-3.1.4.jar
+  
+更新时间：2015-7-22 
+更新人员：lwh
+---------------------------------------------
+1、增加Spring Data JPA 扩展示例代码。
+2、更新QPID jar包的版本。
+3、增加GSUI 示例代码。  
+
+更新时间：2015-8-13 
+更新人员：wx
+---------------------------------------------
+在utils下补充收集到的工具类。
+  
+更新时间：2015-8-18
+更新人员：liuxg
+---------------------------------------------
+1.更新下头部样式
+2.删除一些不必要的资源
+
+更新时间：2015-10-08
+更新人员：liuxg
+---------------------------------------------
+1.根据美工的一些设计抽出公用的ui组件
+2.根据美工的设计修改插件样式
+
+更新时间：2015-10-10
+更新人员：wx
+---------------------------------------------
+整合xmemcached-client，实现对Memcached服务器的缓存操作。
+1、更新application.properties 添加memcached相关的配置项
+2、新增applicationContext-xmemcached.xml
+3、需要引入的lib包：xmemcached-2.0.0.jar
+4、实例代码：com.gosun.example.memcached
+(如果是在Spring容器里边调用，只需要通过@Resource或者@Autowired注入MemcachedClient memcachedClient)
+
+更新时间：2015-10-29
+更新人员：wx
+---------------------------------------------
+1、更新application.properties 添加网络库相关的配置项
+1、增加网络库工具类
+2、增加网络库使用示例代码：com.gosun.example.net
+---------------------------------------------
+1.添加springmvc数据模型自定义绑定
+2。封装一些常用的jpa增删改查方法
+3.web.xml添加编码过滤
+
+更新时间：2016-02-17
+更新人员：lwh
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+.ztree li span.DOMAIN_ico_open{
+	width:18px;
+	height:18px;
+	margin-bottom:3px;
+	margin-right:3px;
+	background:url("../images/base/camerFolder.png") no-repeat;
+}
+.ztree li span.DOMAIN_ico_close{
+	width:18px;
+	height:18px;
+	margin-bottom:3px;
+	margin-right:3px;
+	background:url("../images/base/camerFolder.png") no-repeat;
+}
+.ztree li span.DOMAIN_ico_docu{
+	width:18px;
+	height:18px;
+	margin-bottom:3px;
+	margin-right:3px;
+	background:url("../images/base/camerFolder.png") no-repeat;
+}
+
+
+.ztree li span.CHANNEL_ico_open{
+	margin-right:3px;
+	background:url("../images/base/camera.png") no-repeat;
+}
+.ztree li span.CHANNEL_ico_close{
+	margin-right:3px;
+	background:url("../images/base/camera.png") no-repeat;
+}
+.ztree li span.CHANNEL_ico_docu{
+	width:18px;
+	height:18px;
+	margin-right:3px;
+	background:url("../images/base/camera2.png") no-repeat;
+}
+.ztree li span.CHANNEL_ico_docu.active{
+	margin-right:3px;
+	background:url("../images/base/camera2-active.png") no-repeat;
+}
+.ztree li span.CHANNEL_active_ico_docu{
+	width:18px;
+	height:18px;
+	margin-right:3px;
+	background:url("../images/base/camera2-active.png") no-repeat;
+}

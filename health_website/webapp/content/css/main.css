@@ -1,0 +1,126 @@
+.form-group .form-control {
+    height: 27px;
+    width: 199px;
+    padding: 2px 12px;
+}
+.panel-body .form-group {
+    margin-bottom: 0;
+}
+.text .text-txt {
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+}
+.autocompleter {
+    margin-left: 3px;
+    width: 96%;
+}
+.autocompleter-item {
+    color: #999;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    font-weight: normal;
+    padding: 4px 4px 4px 10px;
+}
+.autocompleter-item:hover {
+	background : #4989e1 none repeat scroll 0 0;
+	color:#fff;
+}
+.autocompleter {
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    min-width: 186px;
+    position: absolute;
+    z-index: 100;
+}
+.autocompleter, .autocompleter-hint {
+    position: absolute;
+}
+.autocompleter-show {
+    margin-top: 28px;
+}
+
+
+.wrapper .sidebar {
+    width: 220px;
+    position: relative;
+}
+.wrapper .main-content {
+    padding-left: 225px;
+}
+
+.sidebar {
+    background-color: #f2f2f2;
+    float: left;
+    padding: 0;
+}
+.sidebar .panel {
+    box-shadow: none;
+    margin-bottom: 0;
+}
+.sidebar .panel-default {
+    border-bottom-color: transparent;
+}
+.sidebar .tree-wraper {
+    border-top-color: transparent;
+    overflow: hidden;
+}
+.sidebar .panel-heading {
+    padding: 2px;
+    background-color: #f8f8f8;
+    height:32px;
+    text-align:center;
+}
+.sidebar .panel-body {
+    padding: 10px 10px;
+}
+.sidebar .tree-wraper .panel-body {
+    border-top: 1px solid #eee;
+    padding-top: 6px;
+}
+
+
+.nav-tabs > li {
+    width: 83px;
+    height:33px;
+    background-color: #f8f8f8;
+    text-align:center;
+    border:1px solid #d9d9d9;
+    font-size:14px;
+    border-left:0px;
+    
+}
+.nav > li > a:hover {
+    margin-right:0px;
+    padding: 4px 10px 7px 10px;
+}
+.nav > li > a {
+	margin-right: 0px;
+    padding: 4px 10px 7px 10px;
+}
+
+.nav-tabs > li > a {
+	color:#666666;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #287ae0;
+    background: url("../images/base/triangle_down.png") #fff center bottom no-repeat;
+    font-weight: bold;
+    border-color: #fff;
+    margin-right: 0px;
+    
+}
+.viewport,.viewport > li{
+	border-bottom: 1px solid #dedede;
+	height:33px;
+	width:100%;
+}
+.content{
+	border:1px solid #d9d9d9;
+	border-top:0px;
+}
+section{
+	background-color:#f8f8f8;
+}
+

@@ -1,0 +1,89 @@
+
+.bootstrap-table {
+    font-family: "Microsoft YaHei";
+}
+.fixed-table-container thead th, .fixed-table-container .fixed-table-header {
+    background: #f5f5f5 none repeat scroll 0 0;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: -1px !important;
+}
+.fixed-table-container thead th .th-inner, .fixed-table-container tbody td .th-inner {
+    color: #333;
+    font-size: 14px;
+    padding-left:5px;
+	padding-right:5px;
+
+}
+.bootstrap-table .table>thead>tr>th {
+    color: #333;
+    border-bottom: 1px solid #ddd !important;
+    border-top: 1px solid #ddd !important;
+}
+.table-hover>tbody>tr{
+    font-size: 12px;
+}
+.table-hover>tbody>tr:hover {
+    font-size: 12px;
+    color: #4696f5 !important;
+    border: #bbdaf7;
+    background-color: #e2eefc;
+}
+.fixed-table-container tbody td {
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+}
+.fixed-table-pagination .btn-group button, .fixed-table-pagination .btn-group .btn {
+    padding: 2px 14px;
+}
+.fixed-table-pagination .pagination a {
+    padding: 4px 10px;
+}
+.fixed-table-pagination > .pagination-detail .btn, .fixed-table-pagination > .pagination-detail button {
+    font-size: 12px;
+}
+.md-table .fixed-table-container thead th .th-inner, .md-table .fixed-table-container tbody td .th-inner {
+    color: #444;
+    font-size: 14px;
+}
+.md-table .fixed-table-container tbody td {
+    color: #666;
+    font-size: 14px;
+}
+.md-table .fixed-table-pagination .btn-group button, .md-table .fixed-table-pagination .btn-group .btn {
+    padding: 2px 14px;
+}
+.md-table .fixed-table-pagination .pagination a {
+    padding: 6px 12px;
+}
+.md-table .fixed-table-pagination > .pagination-detail {
+    font-size: 14px;
+}
+.md-table .fixed-table-pagination > .pagination-detail .btn, .md-table .fixed-table-pagination > .pagination-detail button {
+    font-size: 14px;
+}
+.plain-table .fixed-table-container thead th, .plain-table .fixed-table-container .fixed-table-header {
+    background: #eff1f5 none repeat scroll 0 0;
+}
+.plain-table .bootstrap-table .table > thead > tr > th {
+    border-bottom: medium none;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    vertical-align: middle;
+    text-overflow:ellipsis或clip; 
+	white-space:nowrap; 
+	overflow:hidden; 
+}
+
+.fixed-table-pagination .pagination, .fixed-table-pagination .pagination-detail {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-size:12px;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    color: #fff !important;
+    background-color: #4696f5 !important;
+    border-color: #4696f5 !important;
+}

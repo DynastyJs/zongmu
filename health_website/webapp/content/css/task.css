@@ -1,0 +1,15 @@
+.label-btn{
+	background-color:rgb(217, 237, 247);
+	border-radius:4px; 
+	border:1px #bce8f1;
+	line-height:23px;
+	padding-left:8px;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-right:5px;
+	margin-left:15px;
+}
+
+#rectParam .carx,#rectParam .cary,#rectParam .carwidth,#rectParam .carheight,#carShanpeParam .carmin,#carShanpeParam .carmax{
+	color : green;
+}

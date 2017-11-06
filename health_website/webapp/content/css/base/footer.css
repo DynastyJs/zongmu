@@ -1,0 +1,21 @@
+ /**
+ * @名称: footer
+ * @描述: 系统底部文件样式
+ */
+ 
+ .footer{
+	width:100%;
+	overflow:hidden;
+	text-align: center;
+	height:30px;
+}
+
+.footer .footer-text{
+	cursor:pointer;
+	line-height: 30px;
+}
+
+.version-tip p span.txt_name{
+	color:#ff0000;
+	line-height: 24px;
+}

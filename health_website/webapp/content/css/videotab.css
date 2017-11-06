@@ -1,0 +1,25 @@
+.search{
+	width : 100%;
+	height : 30px;
+}
+.search .autocompleter-node{
+	width : 80%;
+	height : 90%;
+	margin-left:15px;
+}
+.search .autocompleter{
+	width : 150px;
+	margin-left:15px;
+}
+
+#devTab .topbar{
+	width : 100%;
+	height : 30px;
+	background-color:#e2e2e2;
+}
+
+.videoTabicon{
+	background: url(images/video.png) no-repeat;
+	width: 20px;
+	height: 20px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Gsui演示</title>
+
+     <link rel="stylesheet" type="text/css" href="themes/demo/KitchenSink-all.css" />
+     <link rel="stylesheet" type="text/css" href="resources/style.css" />
+     <link rel="stylesheet" type="text/css" href="themes/neptune/sencha-charts-all-debug.css" />
+     <link rel="stylesheet" type="text/css" href="lib/prettify/prettify.css" />
+
+	<script type="text/javascript">
+        var Gsui = Gsui || {};
+        Gsui.beforeLoad = function(tags){
+        	//Gsui.Loader.
+            var theme = location.href.match(/theme=([\w-]+)/),
+                locale = location.href.match(/locale=([\w-]+)/);
+
+            theme  = (theme && theme[1]) || (tags.desktop ? 'crisp' : 'crisp-touch');
+            locale = (locale && locale[1]) || 'en';
+
+           // Ext.manifest = theme + "-" + locale;
+            tags.test = /testMode=true/.test(location.search);
+            Gsui.microloaderTags = tags;
+        };
+    </script>
+    <script type="text/javascript" src="lib/gsui-all-debug.js"></script>
+    <script type="text/javascript" src="lib/ux/ajax/SimXhr.js"></script>
+    <script type="text/javascript" src="lib/ux/ajax/Simlet.js"></script>
+    <script type="text/javascript" src="lib/ux/ajax/DataSimlet.js"></script>
+    <script type="text/javascript" src="lib/ux/ajax/JsonSimlet.js"></script>
+    <script type="text/javascript" src="lib/ux/ajax/SimManager.js"></script>
+    <script type="text/javascript" src="lib/sencha-charts-debug.js"></script>
+    <script type="text/javascript" src="lib/prettify/prettify.js"></script>
+    
+	<script type="text/javascript" src="js/app.js"></script>
+	  
+	
+</head>
+<body>
+	
+</body>
+</html>

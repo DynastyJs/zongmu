@@ -1,0 +1,133 @@
+body {
+    color: #333333;
+    font-family: "Microsoft YaHei","Segoe UI","Lucida Grande",Helvetica,Arial,FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3","FontAwesome",sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+html {
+    font-size: 62.5%;
+}
+html {
+    font-family: sans-serif;
+}
+.tree-container {
+    border: 1px solid #ddd;
+    float: left;
+    margin: 5px 0 5px 0.5%;
+    width: 20%;
+}
+.tree-title {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    color: #666;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.orgmgr-container {
+    height: 100%;
+    width: 100%;
+}
+
+.orgmgr-content {
+    border: 1px solid #ddd;
+    float: right;
+    margin: 5px 0.5%;
+    width: 78.5%;
+}
+.orgmgr-content a {
+    cursor: pointer;
+}
+
+.search-content {
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    line-height: 40px;
+    padding: 5px 5px 5px 30px;
+    text-align: left;
+}
+.form-control {
+    border-radius: 30px;
+    float: left;
+    height: 30px;
+    width: 250px;
+}
+.input-search {
+    background: rgba(0, 0, 0, 0) url("../../images/monitor/search.png") no-repeat scroll 220px center;
+}
+.search {
+    display: block;
+    height: 30px;
+    line-height: 15px;
+    margin-left: 280px;
+    width: 100px;
+}
+.orgmgr-table {
+    padding: 5px;
+    width: 100%;
+}
+.orgmgr-tool {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #fff 0%, #e5e5e5 100%) repeat scroll 0 0;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 15px;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+}
+.fixed-table-container thead th, .fixed-table-container .fixed-table-header {
+    background: #f8f8f8 none repeat scroll 0 0;
+    height: 35px;
+}
+.fixed-table-container {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.tool-title {
+    color: #666;
+    line-height: 35px;
+    padding-left: 10px;
+}
+.orgmgr-tool button {
+    float: right;
+    height: 25px;
+    line-height: 12px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+ table {
+    color: #666;
+    width: 550px;
+}
+ table tr {
+    height: 40px;
+}
+ table tr .left {
+    text-align: right;
+    width: 100px;
+}
+ table tr .right {
+    padding-left: 10px;
+    text-align: left;
+    width: 300px;
+}
+ table tr .right input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 30px;
+    width: 225px;
+}
+ table tr .right select {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 30px;
+    width: 225px;
+}
+.tip {
+    color: red;
+}

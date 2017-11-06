@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.fwn-window{
+	position : absolute;
+	font-family: 微软雅黑;
+   	font-size : 12px; 
+    left : 0px ;
+   	top : 0px;
+  	z-index : 2000 ;
+   	display : none ;
+}
+
+.fwn-title{
+	font-family: 微软雅黑;
+   	font-size : 12px;
+   	background-color:#ccc; 
+}
+
+.fwn-title .fwn-close{
+	float:right;
+	margin-top:8px;
+	margin-right:5px;
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	background:url("../../images/ocxToolbar/close.png") no-repeat;
+}
+
+.fwn-footer{
+	background-color: #d9d0d0;
+}
+
+.fwn-footer .fw-btn{
+	float:right;
+	margin:3px;
+	width:60px;
+}

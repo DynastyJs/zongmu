@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Property>
+  <Review id="DEFAULT">
+    <Description>property.default.description</Description>
+    <Author></Author>
+    <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">1970-01-01 :: 00:00:00:000 GMT-10:00</CreationDate>
+    <Directory>review</Directory>
+    <Reviewers></Reviewers>
+    <Files/>
+    <FieldItems>
+      <FieldItem id="Type" default="item.label.unset">
+        <Entry name="item.label.unset"/>
+        <Entry name="item.type.label.codingStandards"/>
+        <Entry name="item.type.label.programLogic"/>
+        <Entry name="item.type.label.optimization"/>
+        <Entry name="item.type.label.usability"/>
+        <Entry name="item.type.label.clarity"/>
+        <Entry name="item.type.label.missing"/>
+        <Entry name="item.type.label.irrelevant"/>
+        <Entry name="item.type.label.suggestion"/>
+        <Entry name="item.type.label.other"/>
+      </FieldItem>
+      <FieldItem id="Severity" default="item.label.unset">
+        <Entry name="item.label.unset"/>
+        <Entry name="item.severity.label.critical"/>
+        <Entry name="item.severity.label.major"/>
+        <Entry name="item.severity.label.normal"/>
+        <Entry name="item.severity.label.minor"/>
+        <Entry name="item.severity.label.trivial"/>
+      </FieldItem>
+      <FieldItem id="Resolution" default="item.label.unset">
+        <Entry name="item.label.unset"/>
+        <Entry name="item.resolution.label.validNeedsfixing"/>
+        <Entry name="item.resolution.label.validFixlater"/>
+        <Entry name="item.resolution.label.validDuplicate"/>
+        <Entry name="item.resolution.label.validWontfix"/>
+        <Entry name="item.resolution.label.invalidWontfix"/>
+        <Entry name="item.resolution.label.unsureValidity"/>
+      </FieldItem>
+      <FieldItem id="Status" default="item.status.label.open">
+        <Entry name="item.status.label.open"/>
+        <Entry name="item.status.label.resolved"/>
+        <Entry name="item.status.label.closed"/>
+        <Entry name="item.status.label.reopened"/>
+      </FieldItem>
+    </FieldItems>
+    <Filters>
+      <Phase name="phase.individual" enabled="true">
+        <Filter name="Interval" value="7" enabled="false"/>
+        <Filter name="Reviewer" value="item.reviewer.label.automatic" enabled="true"/>
+        <Filter name="Type" value="item.label.unset" enabled="false"/>
+        <Filter name="Severity" value="item.label.unset" enabled="false"/>
+        <Filter name="AssignedTo" value="" enabled="false"/>
+        <Filter name="Resolution" value="item.label.unset" enabled="false"/>
+        <Filter name="Status" value="item.status.label.open" enabled="false"/>
+        <Filter name="File" value="" enabled="false"/>
+      </Phase>
+      <Phase name="phase.team" enabled="true">
+        <Filter name="Interval" value="7" enabled="false"/>
+        <Filter name="Reviewer" value="" enabled="false"/>
+        <Filter name="Type" value="item.label.unset" enabled="false"/>
+        <Filter name="Severity" value="item.label.unset" enabled="false"/>
+        <Filter name="AssignedTo" value="" enabled="false"/>
+        <Filter name="Resolution" value="item.label.unset" enabled="true"/>
+        <Filter name="Status" value="item.status.label.open" enabled="false"/>
+        <Filter name="File" value="" enabled="false"/>
+      </Phase>
+      <Phase name="phase.rework" enabled="true">
+        <Filter name="Interval" value="7" enabled="false"/>
+        <Filter name="Reviewer" value="" enabled="false"/>
+        <Filter name="Type" value="item.label.unset" enabled="false"/>
+        <Filter name="Severity" value="item.label.unset" enabled="false"/>
+        <Filter name="AssignedTo" value="item.reviewer.label.automatic" enabled="true"/>
+        <Filter name="Resolution" value="item.label.unset" enabled="false"/>
+        <Filter name="Status" value="item.status.label.open" enabled="true"/>
+        <Filter name="File" value="" enabled="false"/>
+      </Phase>
+    </Filters>
+  </Review>
+  <Review id="健康度系统代码评审">
+    <Description>健康度系统代码评审</Description>
+    <Author></Author>
+    <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-01 :: 23:59:49:463 CST</CreationDate>
+    <Directory>review</Directory>
+    <Reviewers>
+      <Entry id="lisa" name="lisa"/>
+    </Reviewers>
+    <Files>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/BizAlarmConditionController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/BizAlarmController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/BizAlarmExtendController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/BizEquipmentStatusController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/BizFocusRepairController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/BizMaskController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/DiagnosisMissionController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/FsuInfoController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/HomeController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/LogController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/ParamsController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/ScreenViewController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/SysEquipmentController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/testJVMEncode.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/TimeTemplateController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/UIAlarmeventController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/UIAlarmInfoController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/UIDevAuthInfoController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/UIDeviceStatusController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/UIDiagnosisController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/UINetworkController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/UIRecordController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/UIRingStatusController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/controller/VideoChannelRecordIntegerController.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/BizAlarmConditionService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/BizAlarmExtendService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/BizAlarmService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/BizEquipmentStatusService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/BizFocusRepairService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/BizMaskService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/LogService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/ScreenViewService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/SysEquipmentService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/TimeTemplateService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/UIAlarmeventService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/UIAlarmInfoService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/UIAlarmUndoService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/UIDevAuthInfoService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/UIDiagnasisStatusService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/UIEquipmentNetworkStatusService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/UIEquipmentStatusService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/UIFsuInfoService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/UIRecordStatusService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/UIRingStatusService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/VideoChannelRecordIntegrityService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/service/VideoDignoseMissionService.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/thread/AlarmCheckingThread.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/thread/ScreanAlaramCheck.java"/>
+      <Entry name="src/main/java/health/com/gosun/healthwebsite/thread/SpringContextUtil.java"/>
+    </Files>
+    <FieldItems>
+      <FieldItem id="Type" default="item.label.unset">
+        <Entry name="item.label.unset"/>
+        <Entry name="item.type.label.codingStandards"/>
+        <Entry name="item.type.label.programLogic"/>
+        <Entry name="item.type.label.optimization"/>
+        <Entry name="item.type.label.usability"/>
+        <Entry name="item.type.label.clarity"/>
+        <Entry name="item.type.label.missing"/>
+        <Entry name="item.type.label.irrelevant"/>
+        <Entry name="item.type.label.suggestion"/>
+        <Entry name="item.type.label.other"/>
+      </FieldItem>
+      <FieldItem id="Severity" default="item.label.unset">
+        <Entry name="item.label.unset"/>
+        <Entry name="item.severity.label.critical"/>
+        <Entry name="item.severity.label.major"/>
+        <Entry name="item.severity.label.normal"/>
+        <Entry name="item.severity.label.minor"/>
+        <Entry name="item.severity.label.trivial"/>
+      </FieldItem>
+      <FieldItem id="Resolution" default="item.label.unset">
+        <Entry name="item.label.unset"/>
+        <Entry name="item.resolution.label.validNeedsfixing"/>
+        <Entry name="item.resolution.label.validFixlater"/>
+        <Entry name="item.resolution.label.validDuplicate"/>
+        <Entry name="item.resolution.label.validWontfix"/>
+        <Entry name="item.resolution.label.invalidWontfix"/>
+        <Entry name="item.resolution.label.unsureValidity"/>
+      </FieldItem>
+      <FieldItem id="Status" default="item.status.label.open">
+        <Entry name="item.status.label.open"/>
+        <Entry name="item.status.label.resolved"/>
+        <Entry name="item.status.label.closed"/>
+        <Entry name="item.status.label.reopened"/>
+      </FieldItem>
+    </FieldItems>
+    <Filters>
+      <Phase name="phase.individual" enabled="true">
+        <Filter name="Interval" value="7" enabled="false"/>
+        <Filter name="Reviewer" value="item.reviewer.label.automatic" enabled="true"/>
+        <Filter name="Type" value="item.label.unset" enabled="false"/>
+        <Filter name="Severity" value="item.label.unset" enabled="false"/>
+        <Filter name="AssignedTo" value="" enabled="false"/>
+        <Filter name="Resolution" value="item.label.unset" enabled="false"/>
+        <Filter name="Status" value="item.status.label.open" enabled="false"/>
+        <Filter name="File" value="" enabled="false"/>
+      </Phase>
+      <Phase name="phase.team" enabled="true">
+        <Filter name="Interval" value="7" enabled="false"/>
+        <Filter name="Reviewer" value="" enabled="false"/>
+        <Filter name="Type" value="item.label.unset" enabled="false"/>
+        <Filter name="Severity" value="item.label.unset" enabled="false"/>
+        <Filter name="AssignedTo" value="" enabled="false"/>
+        <Filter name="Resolution" value="item.label.unset" enabled="true"/>
+        <Filter name="Status" value="item.status.label.open" enabled="false"/>
+        <Filter name="File" value="" enabled="false"/>
+      </Phase>
+      <Phase name="phase.rework" enabled="true">
+        <Filter name="Interval" value="7" enabled="false"/>
+        <Filter name="Reviewer" value="" enabled="false"/>
+        <Filter name="Type" value="item.label.unset" enabled="false"/>
+        <Filter name="Severity" value="item.label.unset" enabled="false"/>
+        <Filter name="AssignedTo" value="item.reviewer.label.automatic" enabled="true"/>
+        <Filter name="Resolution" value="item.label.unset" enabled="false"/>
+        <Filter name="Status" value="item.status.label.open" enabled="true"/>
+        <Filter name="File" value="" enabled="false"/>
+      </Phase>
+    </Filters>
+  </Review>
+</Property>
